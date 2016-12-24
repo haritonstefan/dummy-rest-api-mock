@@ -8,13 +8,20 @@ const options = require('../config.json');
 
 let server = new Hapi.Server();
 
-server.connection({
+let front = server.connection({
   port: process.env.PORT || '3000',
-  host: '0.0.0.0'
+  host: '0.0.0.0',
+  labels: 'front',
+});
+
+let back = server.connection({
+  port: '3001',
+  host: '0.0.0.0',
+  labels: 'back'
 });
 
 
-server.route({
+front.route({
   path: '/',
   method: ['GET', 'POST'],
   handler: (request, reply) => {
