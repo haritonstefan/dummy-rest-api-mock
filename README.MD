@@ -1,4 +1,4 @@
-<img src="/logo.svg" width="48"> - Dummy Rest Api Mock
+<img src="https://rawgit.com/haritonstefan/dummy-rest-api-mock/master/logo.svg" width="48"> - Dummy Rest Api Mock
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/haritonstefan/dummy-rest-api-mock)
