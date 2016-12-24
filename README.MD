@@ -1,4 +1,5 @@
-`DRAM` - Dummy Rest Api Mock
+<img src="./logo.svg" width="48"> - Dummy Rest Api Mock
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/haritonstefan/dummy-rest-api-mock)
 
@@ -8,6 +9,6 @@ TODO:
   * Add validation
   * Add file handling
   * Add tests
-  
-  
+
+
 For now, just define your entities in the entities folder.

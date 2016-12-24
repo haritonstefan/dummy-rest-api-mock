@@ -1,5 +1,7 @@
 'use strict';
 
+import Joi from 'joi';
+
 export default class Endpoint {
   constructor(config) {
     this._name = config.name;
