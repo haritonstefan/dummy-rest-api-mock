@@ -1,0 +1,6 @@
+{
+  "name": "todo",
+  "schema": {
+    "text": "string"
+  }
+}
