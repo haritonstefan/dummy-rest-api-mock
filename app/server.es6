@@ -9,8 +9,8 @@ const options = require('../config.json');
 let server = new Hapi.Server();
 
 server.connection({
-  port: 8000,
-  host: 'localhost'
+  port: process.env.port || '3000',
+  host: '0.0.0.0'
 });
 
 
