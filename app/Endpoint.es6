@@ -6,10 +6,10 @@ export default class Endpoint {
   constructor(config) {
     this._name = config.name;
     this._schema = config.schema;
-    this._connection = server.select('back');
   }
 
   register(server) {
+    this._connection = server.select('back');
     server.plugins.db.loki.addCollection(this._name);
     this.registerFind(server);
     this.registerGet(server);
