@@ -6,6 +6,7 @@ export default class Endpoint {
   constructor(config) {
     this._name = config.name;
     this._schema = config.schema;
+    this._connection = server.select('back');
   }
 
   register(server) {
@@ -17,7 +18,7 @@ export default class Endpoint {
   }
 
   registerFind(server) {
-    server.route({
+    this._connection.route({
       method: 'GET',
       path: `/${this._name}`,
       handler: (request, reply) => {
@@ -28,7 +29,7 @@ export default class Endpoint {
   }
 
   registerGet(server) {
-    server.route({
+    this._connection.route({
       method: 'GET',
       path: `/${this._name}/{id}`,
       config: {
@@ -46,7 +47,7 @@ export default class Endpoint {
   }
 
   registerPost(server) {
-    server.route({
+    this._connection.route({
       method: 'POST',
       path: `/${this._name}`,
       handler: (request, reply) => {
@@ -57,7 +58,7 @@ export default class Endpoint {
   }
 
   registerDelete(server) {
-    server.route({
+    this._connection.route({
       method: 'DELETE',
       path: `/${this._name}/{id}`,
       handler: (request, reply) => {
