@@ -4,8 +4,8 @@
   "description": "Dummy rest api to use in development, or for demo",
   "scripts": {
     "start": "node dist/server.js",
-    "transpile": "BABEL_ENV=production node_modules/.bin/babel -x \".es6\" app/ --out-dir dist/ --presets es2015",
-    "watchAndTranspile": "BABEL_ENV=production node_modules/.bin/babel -x \".es6\" app/ --out-dir dist/ --presets es2015 --watch"
+    "transpile": "BABEL_ENV=production node_modules/.bin/babel -x \".es6\" ./app/ --out-dir ./dist/ --presets es2015",
+    "watchAndTranspile": "BABEL_ENV=production node_modules/.bin/babel -x \".es6\" ./app/ --out-dir ./dist/ --presets es2015 --watch"
   },
   "keywords": [
     "API",
