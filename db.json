@@ -1,0 +1,243 @@
+{
+  "filename": "db.json",
+  "collections": [
+    {
+      "name": "todo",
+      "data": [
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658268286,
+            "version": 0
+          },
+          "$loki": 1
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658275200,
+            "version": 0
+          },
+          "$loki": 2
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658276161,
+            "version": 0
+          },
+          "$loki": 3
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658276334,
+            "version": 0
+          },
+          "$loki": 4
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658276518,
+            "version": 0
+          },
+          "$loki": 5
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658276713,
+            "version": 0
+          },
+          "$loki": 6
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658276876,
+            "version": 0
+          },
+          "$loki": 7
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658277054,
+            "version": 0
+          },
+          "$loki": 8
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658277229,
+            "version": 0
+          },
+          "$loki": 9
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658277398,
+            "version": 0
+          },
+          "$loki": 10
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658277567,
+            "version": 0
+          },
+          "$loki": 11
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658277741,
+            "version": 0
+          },
+          "$loki": 12
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658277910,
+            "version": 0
+          },
+          "$loki": 13
+        },
+        {
+          "text": "text2",
+          "owner": "jora",
+          "meta": {
+            "revision": 0,
+            "created": 1482658278081,
+            "version": 0
+          },
+          "$loki": 14
+        },
+        {
+          "text": "text2",
+          "owner": "vano",
+          "meta": {
+            "revision": 0,
+            "created": 1482658283256,
+            "version": 0
+          },
+          "$loki": 15
+        }
+      ],
+      "idIndex": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "binaryIndices": {},
+      "constraints": null,
+      "uniqueNames": [],
+      "transforms": {},
+      "objType": "todo",
+      "dirty": true,
+      "cachedIndex": null,
+      "cachedBinaryIndex": null,
+      "cachedData": null,
+      "adaptiveBinaryIndices": true,
+      "transactional": false,
+      "cloneObjects": false,
+      "cloneMethod": "parse-stringify",
+      "asyncListeners": false,
+      "disableChangesApi": true,
+      "autoupdate": false,
+      "ttl": null,
+      "maxId": 15,
+      "DynamicViews": [],
+      "events": {
+        "insert": [
+          null
+        ],
+        "update": [
+          null
+        ],
+        "pre-insert": [],
+        "pre-update": [],
+        "close": [],
+        "flushbuffer": [],
+        "error": [],
+        "delete": [
+          null
+        ],
+        "warning": [
+          null
+        ]
+      },
+      "changes": [],
+      "console": {}
+    }
+  ],
+  "databaseVersion": 1.1,
+  "engineVersion": 1.1,
+  "autosave": true,
+  "autosaveInterval": 36000,
+  "autosaveHandle": null,
+  "options": {
+    "verbose": true,
+    "autosave": true,
+    "autosaveInterval": 36000,
+    "serializationMethod": "pretty",
+    "destructureDelimiter": "$<\n"
+  },
+  "persistenceMethod": "fs",
+  "persistenceAdapter": null,
+  "verbose": true,
+  "events": {
+    "init": [
+      null
+    ],
+    "loaded": [],
+    "flushChanges": [],
+    "close": [],
+    "changes": [],
+    "warning": []
+  },
+  "ENV": "NODEJS"
+}

@@ -4,7 +4,8 @@ import Loki from 'lokijs';
 
 const Database = {
   register: (server, options, next) => {
-    let loki = new Loki(options.db_file);
+    let loki = new Loki(options.db_file, {verbose: true, autosave: true, autosaveInterval: 36000, serializationMethod: 'pretty'});
+    loki.loadDatabase(options.db_file);
     server.expose('loki', loki);
     return next();
   },
