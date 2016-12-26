@@ -11,22 +11,6 @@ let server = new Hapi.Server();
 let front = server.connection({
   port: process.env.PORT || '3000',
   host: '0.0.0.0',
-  labels: 'front',
-});
-
-let back = server.connection({
-  port: '3001',
-  host: '0.0.0.0',
-  labels: 'back'
-});
-
-
-front.route({
-  path: '/',
-  method: ['GET', 'POST'],
-  handler: (request, reply) => {
-    return reply(request.headers);
-  }
 });
 
 server.register([

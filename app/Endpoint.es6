@@ -23,7 +23,7 @@ export default class Endpoint {
       path: `/${this._name}`,
       handler: (request, reply) => {
         let collection = server.plugins.db.loki.getCollection(this._name);
-        return reply(collection.find(request.params));
+        return reply(collection.find(request.query));
       }
     });
   }
@@ -41,7 +41,7 @@ export default class Endpoint {
       },
       handler: (request, reply) => {
         let collection = server.plugins.db.loki.getCollection(this._name);
-        return reply(collection.findOne({$id: request.params.id}));
+        return reply(collection.get(request.params.id, false));
       }
     });
   }
@@ -52,7 +52,7 @@ export default class Endpoint {
       path: `/${this._name}`,
       handler: (request, reply) => {
         let collection = server.plugins.db.loki.getCollection(this._name);
-        return reply(collection.insert(request.payload));
+        return reply(collection.insert(JSON.parse(request.payload)));
       }
     });
   }
