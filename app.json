@@ -2,6 +2,6 @@
   "name": "Dummy rest api mock",
   "description": "A dummy rest api mock to use in development or for demoing",
   "repository": "https://github.com/haritonstefan/dummy-rest-api-mock",
-  "logo": "https://rawgit.com/haritonstefan/dummy-rest-api-mock/master/logo.svg",
+  "logo": "https://cdn.jsdelivr.net/gh/haritonstefan/dummy-rest-api-mock/logo.svg",
   "keywords": ["node", "hapi", "api", "rest", "dummy", "mock"]
 }
